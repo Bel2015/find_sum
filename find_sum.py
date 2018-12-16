@@ -21,4 +21,4 @@ def find_sum(list_input,sum_num):
 			if list_input[i] + list_input[j] == sum_num:
 				list_temp = [list_input[i],list_input[j]]
 				list_output.append(list_temp)
-	print(str(list_output)[1:-1])
+	print(str(list_output)[1:-1].replace(' ',''))
