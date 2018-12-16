@@ -7,8 +7,7 @@ you should output [1,9], [1,9], [2,8], [3,7]
 Please write the code and related test cases.
 A:
 First: Check weather the parameters are valid;
-Second: Put the list into a dict, Set the key to sum_num-list[i] and the value to list[i]
-Third: Traveling the dict and find the valid key-value and put it into a list
-Last: Output the list and split it with ','
+Second: Select the first element in the list and the elements after it ,if the sum of them is equal to the sum number,  put them into a list. Then the second, and so on.
+Last: Output the list and split it with ',', the boundary of the output can't be ','
 
-The time complexity is O(n).
+The time complexity is O(n*n).
