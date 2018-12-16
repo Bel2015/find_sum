@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def find_sum(list_input,sum_num):
 	if not isinstance(sum_num, int):
 		print("Error: Your input sum is not a valid num!")	#判断是否是整数
