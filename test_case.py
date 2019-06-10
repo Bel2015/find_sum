@@ -1,7 +1,6 @@
 import find_sum
 #只有一个输入
 #find_sum.find_sum(1)
-#输入参数过多
 #find_sum.find_sum(1,2,3)
 #输入的第一个参数不是列表"
 #find_sum.find_sum('abc',1)
@@ -28,6 +27,6 @@ import find_sum
 #输入的list和sum超过了python中定义的int型的大小
 #find_sum.find_sum([-10223372036854775808,123321,10223372036854775808,10223372036854775809],20446744073709551617)
 #输入的list中满足和为sum的数字有多个
-#find_sum.find_sum([1,1,1,1,1,5,5,5,5,9,9,9,9,9,9],10)
+find_sum.find_sum([1,1,1,1,1,5,5,5,5,9,9,9,9,9,9],10)
 #输入的列表中只有一个元素
 #find_sum.find_sum([10],10)
